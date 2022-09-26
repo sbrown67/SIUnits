@@ -8,7 +8,7 @@
 #include "Temperature.h"
 #include "Force.h"
 #include "Power.h"
-
+#include "Mass.h"
 
 using namespace std;
 
@@ -55,6 +55,11 @@ int main()
     cout << "Fahrenheit " << temp.Fahrenheit << '\n';
     cout << "Rankine " << temp.Rankine << '\n';
     cout << "Celsius " << temp.Celsius << '\n';
+    
+    Mass mass = Mass(1);
+    cout << "Lbs " << mass.Lbs << '\n';
+    cout << "Newton " << mass.Newton << '\n';
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
