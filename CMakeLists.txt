@@ -16,8 +16,4 @@ add_compile_options("${-fdeclspec}")
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 #set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 
-#file(GLOB CPPTEST_SRC CONFIGURE_DEPENDS "src/*.h" "src/*.cpp")
-
-#add_executable(CppTestApp, ${CPPTEST_SRC})
-
 add_subdirectory(src)
