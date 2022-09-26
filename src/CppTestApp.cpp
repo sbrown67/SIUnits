@@ -7,6 +7,7 @@
 #include "Speed.h"
 //#include "Temperature.h"
 #include "Force.h"
+#include "Power.h"
 
 using namespace std;
 
@@ -39,6 +40,9 @@ int main()
     cout << "Newtons " << force.Newtons << '\n';
     cout << "Lbs " << force.Lbs << '\n';
 
+    Power power = Power(10);
+    cout << "ft_lbsPerSec " << power.ft_lbsPerSec << '\n';
+    cout << "HorsePower " << power.HorsePower << '\n';
     //Temperature temp = Temperature(5);
     //temp.Fahrenheit = 51;
     //float cel = temp.Celsius;
