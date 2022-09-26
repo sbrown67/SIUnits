@@ -6,5 +6,11 @@ cmake_minimum_required(VERSION 2.8)
 #set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 #set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 
-add_executable(CppTestApp CppTestApp.cpp Length.cpp Speed.cpp Force.cpp BaseValue.cpp)
+add_executable(CppTestApp
+Angle.cpp            Force.cpp      MyBase.cpp      Temperature.cpp
+AngularSpeed.cpp     Frequency.cpp  Power.cpp       TemplateUtils.cpp
+Area.cpp             Length.cpp     Pressure.cpp    Volume.cpp
+BaseScaleOffset.cpp  Luminous.cpp   properties.cpp
+BaseValue.cpp        Mass.cpp       Speed.cpp
+CppTestApp.cpp       Moment.cpp     Temp.cpp)
 
