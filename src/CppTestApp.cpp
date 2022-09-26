@@ -5,9 +5,10 @@
 #include "Length.h"
 //#include "TemplateUtils.h"
 #include "Speed.h"
-//#include "Temperature.h"
+#include "Temperature.h"
 #include "Force.h"
 #include "Power.h"
+
 
 using namespace std;
 
@@ -43,13 +44,17 @@ int main()
     Power power = Power(10);
     cout << "ft_lbsPerSec " << power.ft_lbsPerSec << '\n';
     cout << "HorsePower " << power.HorsePower << '\n';
-    //Temperature temp = Temperature(5);
-    //temp.Fahrenheit = 51;
+    
+    Temperature temp = Temperature(5);
+    temp.Fahrenheit = 51;
     //float cel = temp.Celsius;
     //float fah = temp.Fahrenheit;
     //float rank = temp.Rankine;
     //float kel = temp.Kelvin;
-    //cout << "Kelvin " << temp.Kelvin << '\n';
+    cout << "Kelvin " << temp.Kelvin << '\n';
+    cout << "Fahrenheit " << temp.Fahrenheit << '\n';
+    cout << "Rankine " << temp.Rankine << '\n';
+    cout << "Celsius " << temp.Celsius << '\n';
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
