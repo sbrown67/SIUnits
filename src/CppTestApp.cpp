@@ -16,6 +16,8 @@ int main()
 {
     std::cout << "Hello World!\n";
 
+    std::cout << "Hello World2!\n";
+
     Length length = Length(1000);
     double m = length.Meters;
     cout << "Meters " << length.Meters << '\n';
