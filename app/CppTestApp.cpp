@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
     std::cout << "Hello World!\n";
-    std::cout << "Hello World2!\n";
+    //std::cout << "Hello World2!\n";
     //std::cout << "Hello World3!\n";
     
     Length length = Length(1000);
@@ -23,15 +23,6 @@ int main()
     cout << "Meters " << length.Meters << '\n';
     cout << "Feet " << length.Feet << '\n';
     cout << "NauticalMiles " << length.NauticalMiles << '\n';
-    
-
-    //double ft = length.Feet;
-    //double mi = length.Miles;
-
-    //length.Kilometers = 10;
-    //double km = length.Kilometers;
-    //double in = length.Inches;
-    //double cm = length.Centimeters;
 
     Speed speed = Speed(20);
     double fps = speed.Fps;
@@ -49,10 +40,6 @@ int main()
     
     Temperature temp = Temperature(5);
     temp.Fahrenheit = 51;
-    //float cel = temp.Celsius;
-    //float fah = temp.Fahrenheit;
-    //float rank = temp.Rankine;
-    //float kel = temp.Kelvin;
     cout << "Kelvin " << temp.Kelvin << '\n';
     cout << "Fahrenheit " << temp.Fahrenheit << '\n';
     cout << "Rankine " << temp.Rankine << '\n';
@@ -61,7 +48,6 @@ int main()
     Mass mass = Mass(1);
     cout << "Lbs " << mass.Lbs << '\n';
     cout << "Newton " << mass.Newton << '\n';
-    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
