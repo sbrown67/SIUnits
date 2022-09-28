@@ -19,6 +19,7 @@ Length::Length(double meters)
 {
 	_value = meters;
 	//Meters = meters;
+	
 }
 
 Length::~Length(void)
