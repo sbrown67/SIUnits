@@ -17,3 +17,6 @@ cmake_minimum_required(VERSION 3.12)
 file(GLOB CPPTEST_SRC CONFIGURE_DEPENDS	"*.h" "*.cpp")
 
 add_executable(CppTestApp ${CPPTEST_SRC})
+
+
+add_library(SIUnits SHARED ${CPPTEST_SRC})

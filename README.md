@@ -4,4 +4,6 @@
 
 3. Split the exe and SIUnits into a library (so, dll) and link with it.
 
-4.
+
+4. Inspect the .so file address space 
+	objdump -TC libSIUnits.so  
