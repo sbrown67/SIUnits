@@ -1,6 +1,11 @@
-// CppTestApp.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
+/*
+* SPDX-FileCopyrightText: 2022 6th Dimension, Inc. <info@6thdpro.com>
+*
+* SPDX-License-Identifier: GPL-3.0-or-later
+*/
+
+// CppTestApp.cpp : This file contains the 'main' function. Program execution begins and ends there.
 #include <iostream>
 #include "Length.h"
 //#include "TemplateUtils.h"
