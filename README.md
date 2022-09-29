@@ -1,3 +1,9 @@
+/*
+ * SPDX-FileCopyrightText: 2022 6th Dimension, Inc. <info@6thdpro.com>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+ 
 1. Note: repo root is main, not master
 
 2. Had to run g++ build in vscode first before the build task and launch would work. 
