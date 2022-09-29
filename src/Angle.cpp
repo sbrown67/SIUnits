@@ -1,11 +1,14 @@
 // ----------------------------------------------------------------------
 // <copyright file="Angle.cpp" company="6D">
 //     Copyright 2022. All right reserved
-//
-//     SPDX-FileCopyrightText: 2022 6th Dimension, Inc. <info@6thdpro.com>
-//     SPDX-License-Identifier: GPL-3.0-or-later" + NewLine;
 // </copyright>
 // ------------------------------------------------------------------------
+
+/*
+* SPDX-FileCopyrightText: 2022 6th Dimension, Inc. <info@6thdpro.com>
+*
+* SPDX-License-Identifier: GPL-3.0-or-later" + NewLine;
+*/
 
 #include "Angle.h"
 #include <iostream>
