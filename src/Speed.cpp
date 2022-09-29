@@ -4,11 +4,11 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Speed.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Speed::Speed(void)
 {
@@ -22,6 +22,6 @@ Speed::Speed(double mps)
 
 Speed::~Speed(void)
 {
-	//cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Speed Object is being deleted. Value = " << Value << endl;
 }
 

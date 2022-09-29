@@ -1,4 +1,7 @@
-#pragma once
+//#pragma once
+#ifndef UNITPROP_H
+#define UNITPROP_H
+
 #include "BaseValue.h"
 
 class UnitProp
@@ -19,8 +22,15 @@ public:
     operator double() { return Get(); }
     double& operator=(const double& a) 
     { 
-        double val = a / m_scale;
+        /*double val = a / m_scale;
         m_baseValue->Value = val;
-        return val;
+        return val;*/
+
+        double* new_val = new double;
+        *new_val = a / m_scale;
+        m_baseValue->Value = *new_val;
+        return *new_val;
+        
     }
 };
+#endif /* UNITPROP_H */

@@ -4,24 +4,24 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Volume.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Volume::Volume(void)
 {
 	
 }
 
-Volume::Volume(double meterscubed)
+Volume::Volume(double metersCubed)
 {
-	Value = meterscubed;
+	Value = metersCubed;
 }
 
 Volume::~Volume(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Volume Object is being deleted. Value = " << Value << endl;
 }
 

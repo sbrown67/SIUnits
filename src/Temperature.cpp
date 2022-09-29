@@ -4,11 +4,11 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Temperature.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Temperature::Temperature(void)
 {
@@ -22,6 +22,6 @@ Temperature::Temperature(float celsius)
 
 Temperature::~Temperature(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Temperature Object is being deleted. Value = " << Value << endl;
 }
 

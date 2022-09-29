@@ -1,8 +1,11 @@
-#pragma once
+//#pragma once
+#ifndef BASEVALUE_H
+#define BASEVALUE_H
+
 class BaseValue
 {
 protected:
-    double _value = 0.0;
+	double _value = 0.0;
 
 public:
     __declspec(property(put = property__set_Value, get = property__get_Value)) double Value;
@@ -18,5 +21,6 @@ public:
         _value = value;
     }
 };
+#endif /* BASEVALUE_H */
 
 

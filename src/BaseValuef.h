@@ -1,4 +1,7 @@
-#pragma once
+//#pragma once
+#ifndef BASEVALUEF_H
+#define BASEVALUEF_H
+
 class BaseValuef
 {
 protected:
@@ -18,4 +21,5 @@ public:
         _value = value;
     }
 };
+#endif /* BASEVALUEF_H */
 

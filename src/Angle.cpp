@@ -4,11 +4,11 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Angle.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Angle::Angle(void)
 {
@@ -22,6 +22,6 @@ Angle::Angle(double radians)
 
 Angle::~Angle(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Angle Object is being deleted. Value = " << Value << endl;
 }
 

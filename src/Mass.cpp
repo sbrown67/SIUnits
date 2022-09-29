@@ -4,11 +4,11 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Mass.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Mass::Mass(void)
 {
@@ -22,6 +22,6 @@ Mass::Mass(double kilogram)
 
 Mass::~Mass(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Mass Object is being deleted. Value = " << Value << endl;
 }
 

@@ -4,24 +4,24 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Area.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Area::Area(void)
 {
 	
 }
 
-Area::Area(double meterssquared)
+Area::Area(double metersSquared)
 {
-	Value = meterssquared;
+	Value = metersSquared;
 }
 
 Area::~Area(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Area Object is being deleted. Value = " << Value << endl;
 }
 

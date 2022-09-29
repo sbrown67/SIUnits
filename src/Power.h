@@ -4,22 +4,28 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
+#ifndef POWER_H
+#define POWER_H
+
 #include "UnitProp.h"
 #include "BaseValue.h"
 
-class Power : BaseValue
+namespace SIUnits
 {
+	class Power : BaseValue
+	{
 
-public:
-	Power();
-	Power(double horsepower);
-	~Power();
+	public:
+		Power();
+		Power(double horsePower);
+		~Power();
 
-	// SI Unit Get Functions#Property
-	UnitProp HorsePower = UnitProp(this, 1);
-	UnitProp Watts = UnitProp(this, 745.7);
-	UnitProp ft_lbsPerSec = UnitProp(this, 550.0);
-	UnitProp m_kgPerSec = UnitProp(this, 75.0);
+		// SI Unit Get Functions - #Property
+		UnitProp HorsePower = UnitProp(this, 1);
+		UnitProp Watts = UnitProp(this, 745.7);
+		UnitProp ft_lbsPerSec = UnitProp(this, 550.0);
+		UnitProp m_kgPerSec = UnitProp(this, 75.0);
 
-};
+	};
+}
+#endif /* POWER_H */

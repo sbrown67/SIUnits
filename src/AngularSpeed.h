@@ -4,24 +4,30 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
+#ifndef ANGULARSPEED_H
+#define ANGULARSPEED_H
+
 #include "UnitProp.h"
 #include "BaseValue.h"
 
-class AngularSpeed : BaseValue
+namespace SIUnits
 {
+	class AngularSpeed : BaseValue
+	{
 
-public:
-	AngularSpeed();
-	AngularSpeed(double radianspersecond);
-	~AngularSpeed();
+	public:
+		AngularSpeed();
+		AngularSpeed(double radiansPerSecond);
+		~AngularSpeed();
 
-	// SI Unit Get Functions#Property
-	UnitProp RadiansPerSecond = UnitProp(this, 1);
-	UnitProp DegreesPerSecond = UnitProp(this, 57.295779513082320876798154814105);
-	UnitProp RevolutionPerSecond = UnitProp(this, 0.15915494309189533576888376337251);
-	UnitProp RevolutionPerMinute = UnitProp(this, 9.5492965855137201461330258023506);
-	UnitProp RevolutionPerHour = UnitProp(this, 572.95779513082320876798154814105);
-	UnitProp Hertz = UnitProp(this, 0.15915494309189533576888376337251);
+		// SI Unit Get Functions - #Property
+		UnitProp RadiansPerSecond = UnitProp(this, 1);
+		UnitProp DegreesPerSecond = UnitProp(this, 57.295779513082320876798154814105);
+		UnitProp RevolutionPerSecond = UnitProp(this, 0.15915494309189533576888376337251);
+		UnitProp RevolutionPerMinute = UnitProp(this, 9.5492965855137201461330258023506);
+		UnitProp RevolutionPerHour = UnitProp(this, 572.95779513082320876798154814105);
+		UnitProp Hertz = UnitProp(this, 0.15915494309189533576888376337251);
 
-};
+	};
+}
+#endif /* ANGULARSPEED_H */

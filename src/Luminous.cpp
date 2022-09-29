@@ -4,11 +4,11 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Luminous.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Luminous::Luminous(void)
 {
@@ -22,6 +22,6 @@ Luminous::Luminous(double candela)
 
 Luminous::~Luminous(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Luminous Object is being deleted. Value = " << Value << endl;
 }
 

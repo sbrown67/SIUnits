@@ -4,24 +4,24 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "AngularSpeed.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 AngularSpeed::AngularSpeed(void)
 {
 	
 }
 
-AngularSpeed::AngularSpeed(double radianspersecond)
+AngularSpeed::AngularSpeed(double radiansPerSecond)
 {
-	Value = radianspersecond;
+	Value = radiansPerSecond;
 }
 
 AngularSpeed::~AngularSpeed(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "AngularSpeed Object is being deleted. Value = " << Value << endl;
 }
 

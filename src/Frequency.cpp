@@ -4,11 +4,11 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Frequency.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Frequency::Frequency(void)
 {
@@ -22,6 +22,6 @@ Frequency::Frequency(double hz)
 
 Frequency::~Frequency(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Frequency Object is being deleted. Value = " << Value << endl;
 }
 

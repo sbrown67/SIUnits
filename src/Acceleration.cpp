@@ -1,27 +1,27 @@
 // ----------------------------------------------------------------------
-// <copyright file="Power.cpp" company="6D">
+// <copyright file="Acceleration.cpp" company="6D">
 //     Copyright 2022. All right reserved
 // </copyright>
 // ------------------------------------------------------------------------
 
-#include "Power.h"
+#include "Acceleration.h"
 #include <iostream>
 
 using namespace std;
 using namespace SIUnits;
 
-Power::Power(void)
+Acceleration::Acceleration(void)
 {
 	
 }
 
-Power::Power(double horsePower)
+Acceleration::Acceleration(double metersPerSec2)
 {
-	Value = horsePower;
+	Value = metersPerSec2;
 }
 
-Power::~Power(void)
+Acceleration::~Acceleration(void)
 {
-	cout << "Power Object is being deleted. Value = " << Value << endl;
+	cout << "Acceleration Object is being deleted. Value = " << Value << endl;
 }
 

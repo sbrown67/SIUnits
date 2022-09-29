@@ -4,11 +4,11 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Pressure.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Pressure::Pressure(void)
 {
@@ -22,6 +22,6 @@ Pressure::Pressure(double pascal)
 
 Pressure::~Pressure(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Pressure Object is being deleted. Value = " << Value << endl;
 }
 

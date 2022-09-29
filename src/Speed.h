@@ -4,22 +4,28 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
+#ifndef SPEED_H
+#define SPEED_H
+
 #include "UnitProp.h"
 #include "BaseValue.h"
 
-class Speed : BaseValue
+namespace SIUnits
 {
+	class Speed : BaseValue
+	{
 
-public:
-	Speed();
-	Speed(double mps);
-	~Speed();
+	public:
+		Speed();
+		Speed(double mps);
+		~Speed();
 
-	// SI Unit Get Functions#Property
-	UnitProp Mps = UnitProp(this, 1);
-	UnitProp Mph = UnitProp(this, 2.23694);
-	UnitProp Fps = UnitProp(this, 3.28084);
-	UnitProp NMph = UnitProp(this, 1.94384);
+		// SI Unit Get Functions - #Property
+		UnitProp Mps = UnitProp(this, 1);
+		UnitProp Mph = UnitProp(this, 2.23694);
+		UnitProp Fps = UnitProp(this, 3.28084);
+		UnitProp NMph = UnitProp(this, 1.94384);
 
-};
+	};
+}
+#endif /* SPEED_H */

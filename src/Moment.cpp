@@ -4,11 +4,11 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Moment.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Moment::Moment(void)
 {
@@ -22,6 +22,6 @@ Moment::Moment(double foot_pounds)
 
 Moment::~Moment(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Moment Object is being deleted. Value = " << Value << endl;
 }
 

@@ -4,11 +4,11 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Length.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Length::Length(void)
 {
@@ -17,13 +17,11 @@ Length::Length(void)
 
 Length::Length(double meters)
 {
-	_value = meters;
-	//Meters = meters;
-	
+	Value = meters;
 }
 
 Length::~Length(void)
 {
-	//cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Length Object is being deleted. Value = " << Value << endl;
 }
 

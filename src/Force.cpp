@@ -4,11 +4,11 @@
 // </copyright>
 // ------------------------------------------------------------------------
 
-#pragma once
 #include "Force.h"
 #include <iostream>
 
 using namespace std;
+using namespace SIUnits;
 
 Force::Force(void)
 {
@@ -22,6 +22,6 @@ Force::Force(float lbs)
 
 Force::~Force(void)
 {
-	cout << "Length Object is being deleted. Value = " << Value << endl;
+	cout << "Force Object is being deleted. Value = " << Value << endl;
 }
 

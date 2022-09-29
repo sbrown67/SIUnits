@@ -1,4 +1,6 @@
-#pragma once
+#ifndef UNITPROPLTF_H
+#define UNITPROPLTF_H
+
 #include "BaseValuef.h"
 
 class UnitPropLTF
@@ -21,8 +23,15 @@ public:
     operator float() { return Get(); }
     float& operator=(const float& a)
     { 
-        float val = (a - m_offset) / m_scale;
-        m_baseValue->Value = val;
-        return val;
+        //float val = (a - m_offset) / m_scale;
+        //m_baseValue->Value = val;
+        //return val;
+
+        float* new_val = new float;
+        *new_val = (a - m_offset) / m_scale;
+        m_baseValue->Value = *new_val;
+        return *new_val;
     }
 };
+#endif /* UNITPROPLTF_H */
+
