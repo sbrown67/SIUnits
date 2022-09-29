@@ -15,6 +15,7 @@
 #include "Mass.h"
 
 using namespace std;
+using namespace SIUnits;
 
 int main()
 {
