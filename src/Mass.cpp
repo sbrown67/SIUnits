@@ -1,7 +1,7 @@
 /*
 * SPDX-FileCopyrightText: 2022 6th Dimension, Inc. <info@6thdpro.com>
 *
-* SPDX-License-Identifier: GPL-3.0-or-later" + NewLine;
+* SPDX-License-Identifier: GPL-3.0-or-later
 */
 
 #include "Mass.h"
