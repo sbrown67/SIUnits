@@ -1,4 +1,9 @@
-//#pragma once
+/*
+* SPDX-FileCopyrightText: 2022 6th Dimension, Inc. <info@6thdpro.com>
+*
+* SPDX-License-Identifier: GPL-3.0-or-later
+*/
+
 #ifndef BASEVALUEF_H
 #define BASEVALUEF_H
 
