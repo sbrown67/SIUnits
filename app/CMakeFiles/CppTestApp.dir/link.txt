@@ -1,1 +1,0 @@
-/usr/bin/clang++ -fdeclspec CMakeFiles/CppTestApp.dir/CppTestApp.cpp.o -o ../CppTestApp  -Wl,-rpath,/home/sbrown/Dev/SIUnits ../libSIUnits.so 
