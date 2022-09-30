@@ -23,6 +23,7 @@ namespace SIUnits
 		// SI Unit Get Functions - #Property
 		UnitProp Kilogram = UnitProp(this, 1);
 		UnitProp Lbs = UnitProp(this, 2.20462);
+		UnitProp Slug = UnitProp(this, 0.0685218);
 		UnitProp Newton = UnitProp(this, 9.80665);
 		UnitProp Grams = UnitProp(this, 1000);
 		UnitProp Ounce = UnitProp(this, 35.274);

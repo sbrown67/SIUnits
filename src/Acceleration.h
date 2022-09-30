@@ -23,6 +23,7 @@ namespace SIUnits
 		// SI Unit Get Functions - #Property
 		UnitProp MetersPerSec2 = UnitProp(this, 1);
 		UnitProp FeetPerSec2 = UnitProp(this, 3.2808398950131233595800524934383);
+		UnitProp MphPerSec = UnitProp(this, 2.2369);
 
 	};
 }
