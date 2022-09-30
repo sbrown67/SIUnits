@@ -11,7 +11,7 @@ cmake_minimum_required(VERSION 3.12)
 #set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 #set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 
-add_executable(SITest CppTestApp.cpp)
+add_executable(SITest SIUnitsTest.cpp)
 
 
 #For the shared library:

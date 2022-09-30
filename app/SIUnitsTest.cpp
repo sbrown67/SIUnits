@@ -13,6 +13,7 @@
 #include "Force.h"
 #include "Power.h"
 #include "Mass.h"
+#include "Volume.h"
 
 using namespace std;
 using namespace SIUnits;
@@ -53,6 +54,12 @@ int main()
     Mass mass = Mass(1);
     cout << "Lbs " << mass.Lbs << '\n';
     cout << "Newton " << mass.Newton << '\n';
+    cout << "Slug " << mass.Slug << '\n';
+    
+    Volume vol = Volume(100);
+    cout << "KilometersCubed " << vol.KilometersCubed << '\n';
+    cout << "MetersCubed " << vol.MetersCubed << '\n';
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
