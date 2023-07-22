@@ -1,1 +1,0 @@
-/usr/bin/clang++  -fdeclspec   CMakeFiles/SITest.dir/SIUnitsTest.cpp.o  -o ../SITest  -Wl,-rpath,/home/jetson/Dev/SIUnits ../libSIUnits.so 
