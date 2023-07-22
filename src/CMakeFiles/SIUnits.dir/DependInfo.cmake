@@ -1,35 +1,28 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jetson/Dev/SIUnits/src/Acceleration.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Acceleration.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Angle.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Angle.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/AngularSpeed.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/AngularSpeed.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Area.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Area.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Force.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Force.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Frequency.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Frequency.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Length.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Length.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Luminous.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Luminous.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Mass.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Mass.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Moment.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Moment.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Power.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Power.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Pressure.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Pressure.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Speed.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Speed.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Temperature.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Temperature.cpp.o"
-  "/home/jetson/Dev/SIUnits/src/Volume.cpp" "/home/jetson/Dev/SIUnits/src/CMakeFiles/SIUnits.dir/Volume.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "Clang")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "SIUnits_EXPORTS"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "app/../../../Dev/SIUnits/src"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/scott/Dev/SIUnits/src/Acceleration.cpp" "src/CMakeFiles/SIUnits.dir/Acceleration.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Acceleration.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Angle.cpp" "src/CMakeFiles/SIUnits.dir/Angle.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Angle.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/AngularSpeed.cpp" "src/CMakeFiles/SIUnits.dir/AngularSpeed.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/AngularSpeed.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Area.cpp" "src/CMakeFiles/SIUnits.dir/Area.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Area.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Force.cpp" "src/CMakeFiles/SIUnits.dir/Force.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Force.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Frequency.cpp" "src/CMakeFiles/SIUnits.dir/Frequency.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Frequency.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Length.cpp" "src/CMakeFiles/SIUnits.dir/Length.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Length.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Luminous.cpp" "src/CMakeFiles/SIUnits.dir/Luminous.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Luminous.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Mass.cpp" "src/CMakeFiles/SIUnits.dir/Mass.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Mass.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Moment.cpp" "src/CMakeFiles/SIUnits.dir/Moment.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Moment.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Power.cpp" "src/CMakeFiles/SIUnits.dir/Power.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Power.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Pressure.cpp" "src/CMakeFiles/SIUnits.dir/Pressure.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Pressure.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Speed.cpp" "src/CMakeFiles/SIUnits.dir/Speed.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Speed.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Temperature.cpp" "src/CMakeFiles/SIUnits.dir/Temperature.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Temperature.cpp.o.d"
+  "/home/scott/Dev/SIUnits/src/Volume.cpp" "src/CMakeFiles/SIUnits.dir/Volume.cpp.o" "gcc" "src/CMakeFiles/SIUnits.dir/Volume.cpp.o.d"
   )
 
 # Targets to which this target links.
