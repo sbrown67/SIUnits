@@ -16,7 +16,15 @@ git commit -m "text"
 git push --set-upstream https://github.com/sbrown67/SIUnits.git main
 
 
+To clone into a new branch
 
+// change to the test branch
+
+git checkout -b test 
+
+mkdir test
+
+git clone -b main https://github.com/sbrown67/SIUnits.git
 
 
 
