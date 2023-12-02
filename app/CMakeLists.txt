@@ -15,10 +15,10 @@ add_executable(SITest SIUnitsTest.cpp)
 
 #For the shared library:
 # include director for the SIUnits headers
-include_directories("../../../Dev/SIUnits/src")
+include_directories("../src")
 
 # if we are using precompiled, then we need this for the lib reference
-target_include_directories(SIUnits PUBLIC ../../../Dev/SIUnits/src)
+target_include_directories(SIUnits PUBLIC ../src)
 
 # link the SIUnits to the CppTestApp
 target_link_libraries(SITest SIUnits)
