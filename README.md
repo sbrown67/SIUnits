@@ -29,6 +29,7 @@ git clone -b main https://github.com/sbrown67/SIUnits.git
 
 more info...
 
+// setup.sh
 var1='Dev'
 echo $var1
 mkdir $var1
