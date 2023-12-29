@@ -15,6 +15,8 @@ git commit -m "text"
 
 git push --set-upstream https://github.com/sbrown67/SIUnits.git main
 
+git pull https://github.com/sbrown67/SIUnits.git main
+
 
 To clone into a new branch
 
