@@ -45,3 +45,8 @@ cd SIUnits
 cmake .
 cmake --build app
 ./SITest
+
+
+//fix cmake on 18.04
+https://medium.com/@rahulbagul330/how-to-install-cmake-on-ubuntu-18-04-linux-c585394226bf
+
